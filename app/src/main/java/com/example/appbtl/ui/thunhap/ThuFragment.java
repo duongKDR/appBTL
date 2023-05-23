@@ -1,15 +1,14 @@
 package com.example.appbtl.ui.thunhap;
 
 import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
-
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.example.appbtl.R;
 import com.example.appbtl.adapter.ChiPageAdapter;
@@ -74,4 +73,6 @@ public class ThuFragment extends Fragment {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_thu, container, false);
     }
+
+
 }
